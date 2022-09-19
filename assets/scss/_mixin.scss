@@ -1,0 +1,6 @@
+@mixin strokeanim {
+    stroke-dasharray: 860;
+    stroke-dashoffset: 860;
+    -webkit-animation: draw 2s infinite linear alternate-reverse;
+    animation: draw 2s infinite linear alternate-reverse;
+}

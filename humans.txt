@@ -1,0 +1,20 @@
+/* TEAM */
+Site: https://ftvcitypartner.in/
+Company: FashionTV India
+
+Developer: Tahir Kutty
+Location: Mumbai, Maharashtra.
+
+Designer: Rupesh
+Location: Mumbai, Maharashtra.
+
+/* THANKS */
+Name: Hemant Karekar
+Field: SEO Optimization
+Location: Mumbai, Maharashtra.
+
+/* SITE */
+Last update: 2021/12/22 16:29:00
+Standards: HTML5, CSS3, PHP, MySQL
+Components: jQuery, etc.
+Software: Visual Studio Code

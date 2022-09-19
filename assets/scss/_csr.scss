@@ -1,0 +1,192 @@
+.mycsr-section {
+  padding: 0 0;
+  overflow: hidden;
+  .mycsr-video {
+    video {
+      height: 100vh;
+    }
+  }
+  .mycsr-content {
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    text-align: center;
+    width: 100%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    img {
+      width: 35%;
+    }
+    h6 {
+      text-align: center;
+      font-size: 7vw;
+      font-family: "Bodoni-bold";
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    p {
+      font-family: "Poppins-Regular";
+      color: $ternary-clr;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.mycsr_intro-section {
+  background: url(/assets/img/text.png) no-repeat top;
+  background-size: contain;
+  padding-bottom: 0;
+  // .mycsr_intro-image {  }
+  .mycsr_intro-content {
+    height: 500px;
+    overflow-y:scroll ;
+    ul {
+      padding-left: 1rem;
+      li {
+        font-family: "Poppins-Light";
+        list-style-type: disclosure-closed;
+        text-align: start;
+        padding: 0.3rem 0;
+        span {
+          font-weight: bold;
+        }
+        &::marker {
+          color: $ternary-clr;
+        }
+        &.points{
+         color: $ternary-clr;
+         list-style-type: disc;
+        }
+      }
+    }
+    h2{
+      color: $ternary-clr;
+      list-style-type: none;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.videocsr-video {
+  background-color: #262262;
+  text-align: center;
+  padding: 3rem 0;
+  video {
+    width: 80%;
+    height: 70vh;
+    margin: 0 auto;
+  }
+}
+
+.bhukant_csr-section {
+  background: url(/assets/img/bhuk-bg.png) no-repeat center;
+  background-size: cover;
+  // background-attachment: fixed;
+  background-color: #0009;
+  background-blend-mode: overlay;
+  .bhukant-row1 {
+    padding: 1rem 0;
+  }
+  .bhukant_csr-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    .bhukant_csr-img {
+      // img { }
+      p {
+        font-size: 1.2rem;
+        padding: 1rem 0 0 0;
+        text-align: center;
+        color: #f79420;
+        font-family: "Poppins-Light";
+        font-family: "Bodoni-Book";
+      }
+    }
+  }
+  .bhukant1-image {
+    text-align: center;
+    h2 {
+      text-transform: uppercase;
+      font-family: "Bodoni-bold";
+    }
+    P {
+      font-size: 1.2rem;
+      padding: 1rem 0;
+      font-family: "Poppins-Light";
+      span {
+        color: $ternary-clr;
+      }
+    }
+    img {
+      width: 200px;
+    }
+  }
+  .bhukant2-text {
+    p {
+      font-family: "Poppins-Light";
+      span {
+        color: $ternary-clr;
+      }
+    }
+    h1 {
+      font-family: "Bodoni";
+      font-size: 2rem;
+      padding-top: 1.5rem;
+      text-transform: uppercase;
+      color: $primary-clr;
+    }
+  }
+  // .bhukant3-image{
+  //   p{
+  //     font-family: "Poppins-Light";
+
+  //     span{
+
+  //     }
+  //   }
+  //   img{
+
+  //   }
+  // }
+  .bhukant3-div{
+    .purple-bg{
+      background-color: rgb(59, 41, 192);
+      padding: 1rem;
+    }
+    // .hexagon-clip{
+    //   clip-path: polygon(0 30%, 50% 0, 100% 30%, 100% 70%, 50% 100%, 0 73%);
+    
+    //   width: 100%;
+    //   aspect-ratio: 1;
+    //   padding: 4rem 1rem;
+    // }
+    // .orange-bg{
+    //   background-color: orangered;
+    // }
+  }
+  .bhukant3-text{
+    h4{
+      font-size: 1.5rem;
+      color: $primary-clr;
+      span{
+        font-size: 2rem;
+
+      }
+    }
+    ul{
+      li{
+        list-style-type: disc;
+      font-family: "Poppins-Light";
+        padding: .4rem 0;
+        span{
+          color: $ternary-clr;
+
+        }
+      }
+    }
+  }
+}

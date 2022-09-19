@@ -1,0 +1,182 @@
+.enquirynow-page {
+  background: url(../media/images/enq-bg.png) no-repeat center;
+  background-size: cover;
+  background-color: #0008;
+  background-attachment: fixed;
+  background-blend-mode: color-burn;
+}
+.enquiry-form-sec {
+  h1 {
+    text-align: center;
+    color: $primary-clr;
+    padding-bottom: 1.5rem;
+  }
+  img {
+    width: 30%;
+  }
+}
+
+::placeholder {
+  color: $white;
+}
+.enquiry-form {
+  form {
+    .form-area {
+      border-radius: 15px;
+      padding: 2rem;
+      // background: linear-gradient(115deg, #FF1C72, #3D0C89, #441A59 , #930D19, #007220);
+      // background-size: cover;
+      background-color: #000000f2;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 1rem;
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      box-shadow: 10px 10px 10px 10px #0002;
+
+      &::after,
+      &::before {
+        content: "";
+        position: absolute;
+        border-radius: 15px;
+        left: -2px;
+        top: -2px;
+        background: linear-gradient(45deg, #fb0094, blue, lime, #ff0, red, #fb0094, blue, lime, #ff0, red);
+        background-size: 400%;
+        width: calc(100% + 4px);
+        height: calc(100% + 4px);
+        z-index: -1;
+        -webkit-animation: steam 20s linear infinite;
+        animation: steam 20s linear infinite;
+
+        // transition: transform 2s;
+      }
+    }
+    .form-enquire {
+      width: calc(50% - 0.5rem);
+    }
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      outline: none;
+      caret-color: $primary-clr;
+      font-family: "Montserrat-Regular", sans-serif;
+      // background: $blue-clr;
+      border-bottom: 1px solid $blue-clr;
+      background-color: transparent;
+
+      color: $blue-clr;
+      margin: 10px 0;
+      font-size: 1.2rem;
+    }
+    select {
+      width: 100%;
+      padding: 13px 10px;
+      border: none;
+      outline: none;
+      caret-color: $primary-clr;
+      font-family: "Montserrat-Regular", sans-serif;
+      border-bottom: 1px solid $blue-clr;
+      background-color: transparent;
+      // background: $blue-clr;
+      color: $white;
+      font-size: 1.2rem;
+      option {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        outline: none;
+        background: $blue-clr;
+        color: $white;
+        margin: 10px 0;
+      }
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      outline: none;
+      background-color: transparent;
+      caret-color: $blue-clr;
+      font-family: "Montserrat-Regular", sans-serif;
+      border-bottom: 1px solid $blue-clr;
+      // background: $blue-clr;
+      color: $blue-clr;
+      // margin: 10px 0;
+      font-size: 1.2rem;
+    }
+    button {
+      padding: 10px 35px;
+      border: 1px solid $blue-clr;
+      border-radius: 30px;
+      background-color: $blue-clr;
+      font-size: 18px;
+      text-transform: uppercase;
+      cursor: pointer;
+      margin: 20px 0;
+      align-self: center;
+      transition: all 0.6s;
+      color: $white;
+      &:hover {
+        color: $blue-clr;
+        background-color: transparent;
+        // border: 1px solid $primary-clr;
+        // box-shadow: inset 0 -3.25em 0 0 $blue-clr;
+        box-shadow: none;
+      }
+    }
+  }
+}
+
+// .gettoknow {
+//   border-top: 1px solid #fff4;
+//   border-bottom: 1px solid #fff4;
+//   background-color: #000;
+//   padding: 1rem 0;
+//   .gettoknow-content {
+//     padding: 2rem 1rem;
+//     background-color: $blue-clr;
+//     display: flex;
+//     flex-direction: row;
+//     align-items: center;
+//     justify-content: center;
+//     .get-heading {
+//       width: 33.33%;
+//       h5 {
+//         color: $primary-clr;
+//         font-family: "Poppins-Regular";
+//         text-transform: uppercase;
+//       }
+//     }
+//     .get-link {
+//       width: 33.33%;
+//       text-align: end;
+//       a {
+//         color: $primary-clr;
+//         background-color: #000;
+//         text-transform: uppercase;
+//         font-family: "Montserrat-Regular";
+//         letter-spacing: 2px;
+//         font-weight: bold;
+//         padding: 10px 25px;
+//         border: 1px solid $primary-clr;
+//       }
+//     }
+//   }
+// }
+
+@keyframes steam {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}

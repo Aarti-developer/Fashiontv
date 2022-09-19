@@ -1,0 +1,308 @@
+.kk1-intro-section {
+  padding-top: 130px;
+  padding-bottom: 0;
+  background: url(/assets/img/kk-1.png) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #900841;
+  position: relative;
+
+  & .kk-branding {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    mix-blend-mode: color-burn;
+    width: 150px;
+  }
+  .kk1-content {
+    text-align: end;
+    h1 {
+      color: $primary-clr;
+    }
+    p {
+      color: $black;
+      background-color: $ternary-clr;
+      text-transform: uppercase;
+      padding: 2px 10px;
+      letter-spacing: 2px;
+      font-weight: bold;
+      display: inline;
+    }
+  }
+}
+.ma-intro-section {
+  background: url(/assets/img/ma.png) no-repeat center;
+  background-size: cover;
+  background-blend-mode: color-burn;
+  background-attachment: fixed;
+  // background-color: #603913;
+}
+.fashiontvbg,
+.kk-background {
+  background: linear-gradient(black, black), url(/assets/img/gif1.gif) no-repeat center;
+  background-size: 100%;
+  background-blend-mode: saturation;
+}
+.kk2-intro-section {
+  // position: relative;
+  // background: url(/assets/img/bg-1.png) no-repeat center;
+  // background-size: 50%;
+  // background-color: #0009;
+  // background-blend-mode: overlay;
+  // background-attachment: fixed;
+  background: transparent;
+  &::after {
+    position: absolute;
+    content: "fashiontv";
+    font-family: "Metropolis";
+    right: 2rem;
+    text-transform: uppercase;
+    top: 50%;
+    opacity: 0.6;
+    transform: rotate(270deg);
+    font-size: 2vw;
+  }
+  .kkbranding3 {
+    position: absolute;
+    width: 20%;
+    bottom: -20%;
+    left: 2%;
+    svg .cls-2 {
+      stroke-dasharray: 860;
+      stroke-dashoffset: 860;
+      -webkit-animation: stroke 6s infinite linear forwards;
+      animation: stroke 6s infinite linear forwards;
+    }
+  }
+  .kkbranding2 {
+    position: absolute;
+    width: 15%;
+    left: 2%;
+    bottom: -20%;
+
+    svg .cls-5 {
+      stroke-dasharray: 860;
+      stroke-dashoffset: 860;
+      -webkit-animation: stroke1 4s 1s infinite linear alternate-reverse;
+      animation: stroke1 4s 1s infinite linear alternate-reverse;
+      stroke: $primary-clr;
+      stroke-width: 1px;
+    }
+  }
+  .kk2-content {
+    h1 {
+      color: $primary-clr;
+      font-family: "Bodoni";
+    }
+    p{
+      span{
+        color: $ternary-clr;
+      }
+    }
+    ul {
+      padding-left: 1rem;
+      li {
+        list-style-type: disclosure-closed;
+        line-height: 1.8;
+        font-family: "NexaBold";
+        text-align: start;
+        span {
+          color: $ternary-clr;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+.kk-vma-section {
+  position: relative;
+  .kk-vma-branding {
+    position: absolute;
+    width: 100px;
+    bottom: 5%;
+    right: 10%;
+  }
+  .kk-vma-heading {
+    h1 {
+      text-align: center;
+      color: $primary-clr;
+    }
+  }
+
+  .kk-vma {
+    .carousel-indicators.custom_indicators {
+      left: 0;
+      top: 20%;
+      right: auto;
+      flex-direction: column;
+      margin: 0;
+
+      button {
+        width: 3px;
+        background-clip: unset;
+        height: 30px;
+      }
+    }
+  }
+  .custom_inner {
+    .carousel-item {
+      .carousel-vma-content {
+        padding-left: 3rem;
+        h2 {
+          font-size: 2rem;
+          font-family: "Poppins-Regular";
+          text-transform: uppercase;
+          color: $ternary-clr;
+          background-color: #378689;
+          text-align: center;
+          display: inline-block;
+          padding: 2px 10px;
+        }
+        p { 
+          span{
+            color: $ternary-clr;
+          }
+        }
+      }
+    }
+  }
+}
+.michel-videosection {
+  .michel-video {
+    width: 80%;
+    margin: 0 auto;
+    video {
+      height: 600px;
+    }
+  }
+}
+// f354
+.kk-work-section {
+  // background: url(/assets/img/bg-1.png) no-repeat center;
+  // background-size: 50%;
+  // background-attachment: fixed;
+  // background-color: rgba(0, 0, 0, 0.6);
+  // background-blend-mode: overlay;
+  background: transparent;
+  padding: 4rem 0 2rem 0;
+
+  .kk-work-branding {
+    width: 15%;
+    right: 16vw;
+    top: 8vw;
+    position: absolute;
+
+    img {
+      animation: move 1s 2s steps(3, end) infinite alternate;
+    }
+  }
+  .sidePanel {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 80px;
+    height: 40%;
+  }
+  .kk-work-content {
+    position: relative;
+    padding-bottom: 2rem;
+    .kk-slide {
+      padding-left: 2rem;
+      h1 {
+        text-align: center;
+        // display: block;
+        color: $primary-clr;
+        .expspan {
+          display: block;
+        }
+        .expspan1 {
+          font-size: 2rem;
+          font-family: "Poppins-Regular";
+          color: $ternary-clr;
+          text-transform: uppercase;
+          background-color: #378689;
+          text-align: center;
+          display: inline-block;
+          padding: 2px 10px;
+        }
+      }
+      ul {
+        padding-left: 1rem;
+        li {
+          list-style-type: disclosure-closed;
+          line-height: 1.8;
+          font-family: "NexaBold";
+          text-align: start;
+          span {
+            color: $ternary-clr;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+    .swiper-button-next,
+    .swiper-button-prev {
+      border: 1px solid $white;
+      color: $white;
+      width: 40px;
+      border-radius: 50%;
+      padding: 10px;
+      height: 40px;
+    }
+    .swiper-button-prev {
+      left: -4rem;
+    }
+    .swiper-button-next {
+      right: auto;
+      left: -4rem;
+      margin-top: 1.5rem;
+    }
+    .swiper-button-next:after {
+      content: "\f063";
+      font-family: "fontAwesome";
+      font-size: 1rem;
+      transform: scaleY(1.5);
+    }
+    .swiper-button-prev:after {
+      content: "\f062";
+      transform: scaleY(1.5);
+      font-family: "fontAwesome";
+      font-size: 1rem;
+    }
+  }
+}
+
+.kashiff1-section {
+  padding: 0 0;
+  .kashiff1-video {
+    video {
+      height: 100vh;
+    }
+  }
+  .kk1-content {
+    position: absolute;
+    bottom: 8%;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    h1 {
+      text-align: center;
+      font-size: 4.5vw;
+      font-family: "Bodoni";
+      text-transform: uppercase;
+      text-shadow: 5px 5px 5px #0009;
+    }
+    p {
+      padding: .5rem 10px;
+      text-align: center;
+      width: fit-content;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 1.2rem;
+      color: $ternary-clr;
+      margin: 0 auto;
+      text-transform: uppercase;
+      background-color: #378689;
+    }
+  }
+}

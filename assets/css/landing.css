@@ -1,0 +1,195 @@
+.introimage-section .introimage-img{}
+.introimage-section .introimage-img img{
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    height: 80vh;
+}
+.introimage-section{
+    
+}
+
+.enquiry-form-sec {
+    background: url(/assets/img/verticals.png) no-repeat center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: #0009;
+    background-attachment: fixed;
+    padding: 5rem 0;
+}
+
+.enquiry-form-sec h1 {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 1.5rem;
+    font-family: inherit;
+    text-transform: uppercase
+}
+
+.enquiry-form-sec img {
+    max-width: 500px;
+    width: 500px
+}
+
+.enquiry-form {
+    border: 1px solid rgba(255, 255, 255, .2666666667);
+    position: relative;
+    background: linear-gradient(0deg, #181d24, #181d24)
+}
+
+.enquiry-form::before,
+.enquiry-form::after {
+    content: "";
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000);
+    background-size: 400%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: 0;
+    -webkit-animation: steam 20s linear infinite;
+    animation: steam 20s linear infinite
+}
+
+.enquiry-form form {
+    position: relative;
+    z-index: 1;
+    background: url(/assets/img/verticals.png) no-repeat center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: #0009;
+    background-attachment: fixed;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center
+}
+
+.enquiry-form form ::-moz-placeholder {
+    color: #fff
+}
+
+.enquiry-form form :-ms-input-placeholder {
+    color: #fff
+}
+
+.enquiry-form form ::placeholder {
+    color: #fff
+}
+
+.enquiry-form form .form-enquire {
+    width: calc(50% - .5rem)
+}
+
+.enquiry-form form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    caret-color: #fff;
+    font-family: inherit;
+    border-bottom: 1px solid #fff;
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+    margin: 10px 0;
+    font-size: 1.2rem
+}
+
+.enquiry-form form select {
+    width: 100%;
+    padding: 10px 10px;
+    border: none;
+    outline: none;
+    caret-color: #fff;
+    font-family: inherit;
+    border-bottom: 1px solid #fff;
+    background: rgba(0, 0, 0, 0);
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #fff
+}
+
+.enquiry-form form select option {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: #181d24;
+    color: #fff;
+    margin: 10px 0
+}
+
+.enquiry-form form input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    caret-color: #fff;
+    font-family: inherit;
+    border-bottom: 1px solid #fff;
+    background: rgba(0, 0, 0, 0);
+    color: #fff;
+    margin: 10px 0;
+    font-size: 1.2rem
+}
+
+.enquiry-form form button {
+    padding: 10px 35px;
+    border-radius: 30px;
+    background-color: var(--blue);
+    transition: all .6s;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: inset 0 -3.25em 0 0 var(--blue);
+}
+
+.enquiry-form form button:hover {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+    border: 1px solid #fff;
+}
+
+@-webkit-keyframes steam {
+    0% {
+        background-position: 0 0
+    }
+
+    50% {
+        background-position: 400% 0
+    }
+
+    100% {
+        background-position: 0 0
+    }
+}
+
+@keyframes steam {
+    0% {
+        background-position: 0 0
+    }
+
+    50% {
+        background-position: 400% 0
+    }
+
+    100% {
+        background-position: 0 0
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .enquiry-form form{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .enquiry-form form .form-enquire{
+        width: 100%;
+    }
+    .enquiry-form-sec img{
+        width: 100%;
+    }
+}

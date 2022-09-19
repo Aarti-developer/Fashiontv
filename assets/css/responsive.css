@@ -1,0 +1,1115 @@
+@media screen and (max-width: 1200px) {
+  /* .girl-img{
+    display: none;
+  } */
+}
+@media screen and (max-width: 1050px) {
+  .head_links .head_nav_links {
+    display: none;
+  }
+  .pc_links-main .pc_innerlink .pc-links_nav .pc-links .pc-links_li-btn a {
+    color: #dbfa5f;
+    text-shadow: none;
+  }
+  .pc_links-main .pc_innerlink .pc-links_nav .pc-links .pc-links_li-btn {
+    /* border: 1px solid #ffd428; */
+    padding: 5px 13px;
+    box-shadow: 5px 5px 10px #000;
+    background-color: #26b7b7;
+  }
+
+  h1 {
+    font-size: 6.5vw;
+  }
+  .vma .title img,
+  .text-content .title img {
+    width: 58% !important;
+  }
+  .header-logo img{
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .potential .text-content p,
+  .swiper .swiper-slide .swiper-content .media-content,
+  .swiper .swiper-slide .swiper-content .text-content p {
+    width: 100%;
+  }
+  .girl-img {
+    display: none;
+  }
+  h1 {
+    font-size: 7.5vw;
+  }
+  .navbar-nav{
+    margin-top: 1.5rem;
+  }
+  .custom__header{
+    padding: 0.5rem;
+  }
+  .custom__header .navbar{
+    background-color: #000;
+  }
+  .navbar-dark .navbar-nav .nav-link.enq-btn {
+    color: #f26f2c;
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px solid #f26f2c;
+}
+.navbar-dark .navbar-nav .nav-link.enq-btn:hover::before{
+  display: none;
+}
+  /* main section.video-full .media-content,
+  .fashiontv1-section .fashiontv1-video {
+    width: 80%;
+  } */
+  /* main section.introduction .branding {
+    width: 32%;
+    right: 0;
+    top: 0;
+  } */
+  .features .features-heading p {
+    padding-left: 0;
+  }
+  /* .video-full .vbranding2 {
+    left: 42% !important;
+  } */
+  .swiper .swiper-slide .swiper-content .swiper-featuresl .text-content p {
+    width: 100%;
+  }
+  /* footer .contactus-btn {
+    display: none;
+  } */
+  .pagelinks-section .pagelinks-main .pagelinks-main_ul {
+    flex-wrap: wrap;
+    gap: 12px;
+    column-gap: 30px;
+    row-gap: 10px;
+    justify-content: start;
+  }
+
+  .pagelinks-section .pagelinks-main .pagelinks-main_ul .pagelinks-main_ul_li .pagelinks-main_ul_li_a {
+    font-size: 1.1rem;
+  }
+  .pagelinks-section .pagelinks-main .pagelinks-main_ul .pagelinks-main_ul_li:not(:last-child):after {
+    right: -14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .features .title-content h1 {
+    transform: none;
+    position: inherit;
+  }
+  .features .title-content {
+    background: transparent;
+  }
+  .enquiry-form form .form-enquire {
+    width: 100%;
+  }
+  .michel-videosection .michel-video video {
+    height: 450px;
+  }
+  .myindex3-section .myindex3-video,
+  .myindex3-section .myindex3-video video{
+    height: 120vh;
+  }
+  .myindex3-section .myindex3-content ul li{
+    font-size: 16px;
+  }
+  .owl-carousel.owl-drag .owl-item .item video{
+    aspect-ratio: 1;
+    border-radius: 8px;
+  }
+  .custom__header .navbar-dark .navbar-nav .nav-item{
+    margin: .5rem;
+  }
+  .videocsr-video video,
+  .michel-videosection .michel-video {
+    width: 100%;
+  }
+  .mycsr-section .mycsr-content img {
+    width: 50%;
+  }
+  .mycsr-section .mycsr-content h6 {
+    font-size: 12vw;
+  }
+ 
+  .mycsr-section .mycsr-content {
+    bottom: 5%;
+  }
+  h1 {
+    font-size: 8.5vw;
+  }
+  .myindex-section .myindex-content {
+    width: 80%;
+  }
+  .kashiff1-section .kk1-content h1,
+  .myindex-section .myindex-content h4 {
+    font-size: 5.5vw;
+  }
+  .myindex-section .myindex-content p {
+    padding: 0.5rem 10px;
+  }
+  .subscribe-title p {
+    font-size: 1.4rem;
+  }
+  /* main section.video-full .media-content {
+    width: 80%;
+  } */
+  /* .potential .container-fluid .row {
+    flex-direction: column-reverse;
+  } */
+  .pagelinks-section .pagelinks-branding2 {
+    width: 40%;
+  }
+  .mycsr_intro-section .mycsr_intro-content {
+    margin: 2rem 1rem;
+  }
+  .bhukant3-text,
+  .bhukant2-text {
+    padding: 2rem 1rem;
+  }
+  /* .features .branding {
+    z-index: 2;
+    right: 10px;
+    top: 12%;
+    width: 13%;
+  } */
+  .bhukant_csr-section .bhukant3-text ul {
+    padding-left: 1rem;
+  }
+  .bhukant_csr-section .bhukant3-div .purple-bg {
+    margin: 0 0 2rem 0;
+  }
+  .accordion-button h1 {
+    font-size: 4.5vw;
+  }
+  /* footer,
+  .introduction,
+  .features {
+    overflow: hidden;
+  } */
+  .main-bg {
+    background-size: 138%;
+  }
+  .enquiry-form-sec img {
+    width: 60%;
+  }
+  /* .kk-work-section .kk-work-content .swiper-button-prev,
+  .kk-work-section .kk-work-content .swiper-button-next {
+    left: 50%;
+    top: auto;
+    transform: rotate(90deg);
+    bottom: -10%;
+  } */
+  .kk-work-section .kk-work-content .kk-slide {
+    padding-left: 0;
+  }
+  .kk-work-section .kk-work-content .swiper-button-next {
+    left: 33%;
+  }
+  .usp-section .usp-content p {
+    width: 100%;
+  }
+  .services-section .container-fluid .row > * .services-content h2 {
+    font-size: 5vw;
+  }
+  /* .video-full .vbranding3 {
+    width: 99px !important;
+    left: 4% !important;
+    bottom: 0% !important;
+  }
+  .video-full .vbranding2 {
+    left: 9% !important;
+    top: 48% !important;
+    width: 21% !important;
+  } */
+  /* section.video-full .videofull-content {
+    top: 48vw !important;
+  } */
+  main section.introduction .introduction-abs {
+    display: none;
+  }
+  .potential .sidePanel {
+    width: 14%;
+    bottom: -14%;
+  }
+  .features .features-heading {
+    position: unset;
+    text-align: center;
+    width: 100%;
+  }
+  .videocsr-video {
+    padding: 0 0;
+    background-color: #000;
+  }
+  /* .features .branding {
+  top: -16%;
+  width: 38%;
+} */
+  /* .usp-section .branding {
+    top: auto;
+    bottom: 0;
+    width: 25%;
+  } */
+  /* .swiper .swiper-slide .swiper-content .swiper-featuresl {
+    flex-direction: column;
+  }
+  .swiper .swiper-slide .swiper-content .swiper-featuresl .text-content,
+  .swiper .swiper-slide .swiper-content .swiper-featuresl .media-content {
+    width: 100%;
+  } */
+  .fashiontv1-section .fashiontv1-video .fashiontv1-heading h2 {
+    font-size: 8vw;
+  }
+  .swiper .swiper-slide .swiper-content .swiper-featuresl .media-content h1 {
+    font-size: 6.5vw;
+    padding: 12px 0;
+  }
+  main section.video-full .sidePanel {
+    width: 15%;
+  }
+  /* .pc_links-main
+    .pc_innerlink
+    .pc-links_nav
+    .pc-links
+    .pc-links_li
+    .pc-links_li_a_ul
+    .pc-links_li_a_ul_li
+    .pc-links_li_a_ul_li_a,
+  .pc_links-main .pc_innerlink .pc-links_nav .pc-links .pc-links_li .pc-links_li_a {
+    font-size: 1.1rem;
+  } */
+  /* footer .footer-side3 .footer-contact {
+    display: none;
+  } */
+  .fashiontv1-section .branding {
+    right: 0;
+  }
+  .kk2-intro-section .kk2-content p {
+    line-height: 1.5;
+  }
+  .features-section .features-content ul li,
+  .keyfact-section .keyfact-slider .keyfact-slider-content ul li {
+    padding: 0.2rem 0;
+  }
+  .channels-intro .sidePanel {
+    width: 90px;
+  }
+  /* .financial-section {
+    background-size: 80%;
+    background-color: #000000d4;
+    background-blend-mode: color-burn;
+    padding: 2rem 0;
+  }
+  .financial-section .financial-content .financial-fees h5 {
+    font-size: 1.3rem;
+  }
+  .financial-section .financial-content .financial-fees h4 {
+    font-size: 1.2rem;
+  }
+  .financial-section .financial-content h1 {
+    padding-bottom: 0;
+  }
+  .financial-section .financial-prerequisite {
+    padding-top: 2.5rem;
+  } */
+
+  .brand-support .brand-abs h4 {
+    opacity: 0.4;
+    transform: none;
+    display: none;
+  }
+  .services-section .container-fluid .row > * .services-img2 h4 {
+    transform: none;
+    opacity: 0.4;
+  }
+  section.video-full .videofull-content {
+    width: 80%;
+    margin: 0 0 0 auto;
+  }
+  .brand-support .brand-branding {
+    width: 33%;
+    left: auto;
+    right: 3%;
+    top: 0;
+  }
+  .brand-support {
+    background-size: 54%;
+  }
+  /* .financial-section .fianance-brand {
+    width: 35%;
+  }
+  .kit-download .kit-branding {
+    width: 133px;
+    left: 3%;
+    bottom: 2%;
+  }
+  .financial-section .fianance-branding2 {
+    top: 10%;
+    width: 40%;
+  }
+  .financial-section .financial-branding {
+    width: 35%;
+  }
+  .kit-download .kit-content .photo-book,
+  .kit-download .kit-content .sales-kit {
+    justify-content: space-between;
+  }
+  .kit-download .kit-content {
+    background-color: transparent;
+    border-radius: 0;
+  } */
+  main section.introduction {
+    background-color: #b50640;
+  }
+  .potential .potential-branding2 {
+    z-index: 1;
+    width: 25%;
+  }
+  .potential .index3-image .potential-branding {
+    right: 0;
+    width: 44%;
+  }
+  .text-content .title {
+    align-items: center !important;
+  }
+  /* .text-content p,
+  .text-content h1,
+  .potential .text-content p {
+    text-align: center;
+  } */
+.also-text{
+  text-align: center;
+  font-size: 1rem;
+}
+  main section .text-content .title img {
+    margin: auto;
+  }
+  p,
+  a,
+  ul li {
+    font-size: 1rem;
+  }
+  /* p {
+    line-height: 1.4;
+  } */
+  .kk2-intro-section .kk2-content p span {
+    font-size: 1rem;
+  }
+  .kk-vma-section,
+  .kk2-intro-section {
+    padding: 2rem 0;
+  }
+  .kk-work-section {
+    padding: 2rem 0 0rem 0;
+  }
+  .accordion-button,
+  .accordion-body {
+    padding: 0.5rem 1rem;
+  }
+  .fashiontv1-section .fashiontv1-video .fashiontv1-heading p {
+    font-size: 1.2rem;
+  }
+  /* .channels-intro .channels-content p span {
+    display: none;
+  }
+  .channels-intro {
+    padding: 1.5rem 0;
+  }
+  .ravp-section .ravp-tabs .tabs__toggle h3 {
+    font-size: 1.5rem;
+  }
+  .ravp-section .ravp-content .tabs-content p {
+    font-size: 1.1rem;
+  } */
+  .services-section .container-fluid .row > * .services-img1 h4 {
+    z-index: 1;
+  }
+  .services-img2 {
+    width: 50%;
+    margin: 0 0 0 auto;
+  }
+  /* .fashiontv1-section {
+    padding: 140px 0 6.5rem 0;
+    background: url(../media/images/mb-bg.png) no-repeat center;
+    background-size: cover;
+  }
+  .kit-download,
+  .services-section {
+    background: url(../media/images/bg11.png) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #000;
+    background-blend-mode: hard-light;
+  }
+  .video-book {
+    background: url(../media/images/bgv.png) no-repeat center;
+    background-size: 100%;
+    background-position: top;
+  }
+  .brand-support {
+    background: url(../media/images/brd-bg.png) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .financial-section .financial-prerequisite ul li span {
+    line-height: 1.2;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+  } */
+}
+
+@media screen and (max-width: 620px) {
+  main section.video-full .videofull-content {
+    width: 90%;
+    margin: 0 0 0 auto;
+  }
+  .swiper .swiper-slide .swiper-content .swiper-featuresl .media-content video {
+    width: 100%;
+    height: 350px;
+    aspect-ratio: unset;
+  }
+  .swiper .swiper-slide .swiper-content .swiper-featuresl .media-content h1 {
+    padding-top: 1.5rem;
+  }
+  .keyfact-section .sidePanel {
+    left: 0;
+    width: 40px;
+    right: auto;
+    height: 30%;
+  }
+  .channels-content {
+    position: relative;
+    z-index: 2;
+  }
+}
+@media screen and (max-width: 576px) {
+  /* main section.video-full .media-content video {
+    aspect-ratio: 0.8;
+  }
+  main section.video-full .media-content {
+    width: 100%;
+  } */
+  .myphilosophy-section .myphilosophy-content,
+  .myindex2-section .myindex2-content,
+  .myindex3-section .myindex3-content {
+    padding: 10px 10px;
+  }
+  .image-section img{
+    aspect-ratio: .6;
+  }
+  footer .footer-side3 .footer-social-links ul li a i {
+    width: 30px;
+    height: 30px;
+  }
+  footer .footer-side3 .footer-social-links ul {
+    justify-content: center;
+  }
+  .myphilosophy-image video {
+    display: none;
+  }
+  .services-section .container-fluid .row > * .services-content h2 {
+    font-size: 7vw;
+  }
+  .fashiontv1-section {
+    padding: 60px 0 6.5rem 0;
+  }
+  .features-section .features-branding {
+    width: 54%;
+    right: 3%;
+    top: 0;
+  }
+
+  main section .text-content .title img,
+  footer .main-content .footer-newsletter form input {
+    width: 80%;
+  }
+  /* footer {
+    flex-direction: column;
+  }
+
+  footer .footer-content ul {
+    flex-direction: row;
+    width: auto;
+    gap: 1rem;
+    padding: 10px 10px;
+    border-radius: 0.25rem;
+  }
+  footer .footer-content ul li a {
+    width: 35px;
+    height: 35px;
+  } */
+  .features {
+    padding-bottom: 2rem;
+  }
+  .accordion-button h1 {
+    font-size: 6vw;
+  }
+  main section.video-full .branding {
+    width: 100px;
+  }
+  .enquiry-form form .form-area {
+    flex-direction: column;
+  }
+  .enquiry-form form select,
+  .enquiry-form form input {
+    width: 100%;
+  }
+  .kk-vma-section .fashiontv2-branding img {
+    width: 70%;
+  }
+  .fashiontv1-section .fashiontv1-video {
+    width: 90%;
+  }
+  .fashiontv1-section .fashiontv1-video video {
+    aspect-ratio: 1;
+  }
+
+  .services-section .container-fluid .row > * .services-img2 h4 {
+    display: none;
+  }
+  .services-section .ser-branding {
+    width: 42%;
+    left: 6%;
+  }
+  .services-section .container-fluid .row > .col-6 {
+    align-self: center;
+  }
+  .kk2-intro-section::after {
+    position: relative;
+    right: 0rem;
+    opacity: 0.4;
+    font-size: 12vw;
+    animation: ops 2s infinite alternate;
+  }
+  .keyfact-section {
+    background-position: 68%;
+  }
+  .usp-section .usp-content ul {
+    justify-content: start;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #btn_sideNavClose {
+    top: 31px;
+    right: 31px;
+  }
+  h1 {
+    font-size: 10vw;
+  }
+  main section.video-full {
+    aspect-ratio: 0.8 !important;
+  }
+  .features .branding {
+    top: 1%;
+    width: 37%;
+  }
+  main section.vma .branding-vma {
+    width: 45%;
+    right: 2%;
+    bottom: 2%;
+  }
+  .ravp-section .ravp-content .tabs-content p {
+    font-size: 1.2rem;
+  }
+  .kk2-intro-section .kkbranding2 {
+    width: 40%;
+  }
+  .kk-vma-section .kk-vma-branding {
+    position: absolute;
+    width: 155px;
+    bottom: 27%;
+    right: 1%;
+  }
+  .kk-work-section .kk-work-branding {
+    width: 40%;
+    right: 2vw;
+    top: -7vw;
+  }
+  .ravp-section .ravpbranding,
+  .usp-section .branding {
+    width: 45%;
+  }
+  .channels-intro {
+    padding: 1rem 0;
+  }
+  .fashiontv1-section .fashiontv1-video .fashiontv1-heading p {
+    font-size: 1.2rem;
+    background-color: #dbfa5f;
+    color: #000;
+    padding: 4px 10px;
+    display: inline;
+    text-transform: uppercase;
+  }
+  .fashiontv1-section .fashiontv1-video .fashiontv1-heading h2 {
+    font-size: 15vw;
+  }
+  /* .fashiontv1-section .fashiontv1-video .fashiontv1-heading{
+    bottom: 2%;
+  } */
+  .kk-background {
+    background-size: 215%;
+    background-position: 13%;
+  }
+  .swiper .swiper-slide video {
+    height: 400px !important;
+  }
+  .video-book {
+    padding: 2rem 0 0 0;
+  }
+  /* .financial-section .financial-content .financial-fees {
+    padding: 0.5rem 0;
+  }
+  .kit-download {
+    padding: 0;
+  } */
+  /* .financial-section .fianance-brand {
+    width: 50%;
+    z-index: 1;
+  } */
+  .potential .index3-image video {
+    height: 400px;
+  }
+  /* footer .footer-side3 .footer-headinglink {
+    text-align: center;
+    position: relative;
+    padding-bottom: 1rem;
+  } */
+  /* footer .footer-side3 .footer-headinglink::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    left: 0;
+    top: 35%;
+    transform: translateY(-50%);
+    background-color: #ffd428;
+    position: absolute;
+    z-index: -1;
+  }
+  footer .footer-side3 h4 {
+    display: inline;
+    background-color: #000;
+    padding-bottom: 0;
+    padding: 10px;
+  } */
+
+  /* .financial-section .financial-content .financial-fees h4 {
+    font-size: 1.3rem;
+  } */
+  .kk-work-section .kk-work-content .swiper-button-prev:after,
+  .kk-work-section .kk-work-content .swiper-button-next:after {
+    transform: none;
+  }
+  .section__footer .footer-social-links ul li {
+    margin: 0.1rem;
+  }
+  .bhukant_csr-section .bhukant_csr-image {
+    flex-direction: column;
+  }
+  .bhukant_csr-section .bhukant3-img2 img {
+    aspect-ratio: 1;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .accordion-button,
+  .accordion-body {
+    padding: 0.5rem 0;
+  }
+  .fashiontv-para {
+    font-size: 9vw;
+  }
+  .potential {
+    padding: 0 0 1rem 0;
+  }
+  .usp-section {
+    padding: 2rem 0;
+  }
+  .pagelinks-section .pagelinks-branding2 {
+    width: 51%;
+  }
+  .mycsr-section .mycsr-content h6 {
+    font-size: 18vw;
+  }
+  .mycsr-section .mycsr-content img {
+    width: 85%;
+  }
+  .features {
+    padding: 1rem 0 2rem 0;
+  }
+  .bhukant_csr-section .bhukant3-text ul li {
+    padding: 0.2rem 0;
+  }
+  .common-link{
+    text-align: center;
+    margin: 2rem 0 .5rem 0;
+  }
+  /* main section.video-full .media-content video {
+    aspect-ratio: 0.6;
+  } */
+  /* main {
+    padding-top: 105px;
+  } */
+  .pagelinks-section .pagelinks-main .pagelinks-main_ul {
+    flex-direction: column;
+  }
+  .section__footer .logos-listing ul li div{
+    width: 70px;
+  }
+  .mob_n-display,
+  .pagelinks-section .pagelinks-main .pagelinks-main_ul .pagelinks-main_ul_li:not(:last-child):after {
+    display: none;
+  }
+  .swiper .swiper-slide .swiper-content .text-content {
+    margin-top: -1.5rem;
+  }
+  .pc_links-main .pc_innerlink .pc-links_nav {
+    padding: 1.5rem 2rem;
+  }
+  .accordion-button h1,
+  .swiper .swiper-slide .swiper-content .swiper-featuresl .media-content h1 {
+    font-size: 8vw;
+  }
+  h1 {
+    font-size: 13vw;
+  }
+  .kk-work-section {
+    padding: 2rem 0 0rem 0;
+  }
+  .kk-work-section .kk-work-content .swiper-button-next {
+    left: 30%;
+  }
+  .kk1-intro-section {
+    padding-top: 240px;
+  }
+  .features-section .features-content ul {
+    padding-left: 1rem;
+  }
+  .ravp-section .ravp-tabs .tabs__toggle.is-active::after {
+    display: none;
+  }
+  .kk-work-section .kk-work-content .kk-slide p,
+  .kk1-intro-section .kk1-content {
+    text-align: center;
+  }
+  .ravp-section .ravp-tabs .tabs__toggle h3 {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  /* main section.video-full .videofull-content{
+    width: 70%;
+  } */
+  .potential .sidePanel {
+    width: 34%;
+  }
+  .potential .sidePanel {
+    width: 12%;
+    bottom: -19%;
+  }
+  .features .branding-fea {
+    bottom: 0%;
+    width: 38%;
+  }
+  .kk-vma-section,
+  .channels-slider,
+  .ravp-section,
+  .kk2-intro-section {
+    padding: 2rem 0;
+  }
+  .usp-section .usp-content ul li {
+    padding: 0.2rem 0;
+    width: 100%;
+  }
+  main section.video-full .videofull-content {
+    width: 86%;
+    margin: 0 0 0 auto;
+    top: 53vw !important;
+  }
+  main section.introduction .branding {
+    width: 46%;
+  }
+  main section.introduction .ibranding1 {
+    width: 40%;
+    top: 0;
+  }
+  .potential .potential-branding2 {
+    position: absolute;
+    z-index: 1;
+    top: -5%;
+    width: 48%;
+    left: 0;
+  }
+  /* .pixel3,
+  .pixel2,
+  .pixel1,
+  .pixel,
+  .pixel4 {
+    width: 15px;
+    padding-top: 15px;
+  } */
+  .kk2-intro-section .kkbranding3 {
+    width: 53%;
+    bottom: -10%;
+  }
+  .channels-intro .sidePanel {
+    bottom: auto;
+    top: -5%;
+    width: 60px;
+  }
+  .channels-intro {
+    background-size: 80%;
+    background-position: 0 -10%;
+  }
+  .ravp-section .ravp-branding {
+    top: auto;
+    opacity: 0.5;
+    left: 0;
+    bottom: -25%;
+  }
+  .kk-vma-section .kk-vma .carousel-indicators.custom_indicators {
+    display: none;
+  }
+  .kk-vma-section .custom_inner .carousel-item .carousel-vma-content {
+    padding-left: 0;
+    text-align: center;
+  }
+  .kk2-content {
+    text-align: center;
+  }
+  .ravp-section .ravp-tabs {
+    gap: 6px;
+    align-items: center;
+  }
+  .ma-intro-section {
+    background-position: 80%;
+  }
+  .kk1-intro-section .kk1-content h1 {
+    font-size: 11vw;
+  }
+  .kk-work-section .sidePanel {
+    height: 16%;
+  }
+  .potential .index3-image .potential-branding,
+  .kk-vma-section .kk-vma-branding {
+    display: none;
+  }
+  .kk2-intro-section::after {
+    right: -3rem;
+    display: none;
+  }
+  main section.vma {
+    background-size: 289%;
+    background-position: 70%;
+  }
+  .text-content h1,
+  .ravp-section .ravp-content .tabs-content p,
+  main section.potential .text-content .title h1,
+  main section .text-content .title h1,
+  .vma .title {
+    text-align: center;
+  }
+  .text-content h1 {
+    color: #ffd428;
+  }
+  footer .copyright p {
+    font-size: 12px;
+  }
+  .ravp-section .ravp-tabs .tabs__toggle.is-active h3 {
+    padding: 3px 15px;
+  }
+  .channels-slider .channels-slider-content .ch-slider .ch-slider-video video {
+    height: 400px;
+  }
+  .ravp-section .ravp-content .tabs-content p {
+    font-size: 1.1rem;
+  }
+  /* footer .footer-side1 .footer-newsletter h4 span {
+    color: #26b7b7;
+  }
+  footer .footer-side1 .footer-newsletter h4 {
+    font-size: 1.5rem;
+  }
+  footer .footer-side2 .footer-pages-links ul {
+    gap: 7px;
+  }
+  footer .footer-side2 .footer-pages-links h4 {
+    padding-bottom: 0.6rem;
+  } */
+  .enquiry-form-sec img,
+  .video-book .book-heading img {
+    width: 85%;
+  }
+  .vma .title img,
+  .text-content .title img,
+  main section .text-content .title img {
+    width: 80% !important;
+  }
+  main section.vma .branding-vma {
+    width: 65%;
+  }
+  .enquiry-form form .form-area {
+    padding: 0;
+  }
+  .keyfact-section .sidePanel {
+    width: 46px;
+  }
+  .ravp-section {
+    padding: 0 0 2rem 0;
+  }
+  .ravp-section .ravpbranding {
+    width: 58%;
+  }
+  .preloader svg {
+    width: 85vw;
+  }
+  .kk2-intro-section .kk2-content p span {
+    font-size: 1.1rem;
+  }
+  .usp-section .usp-content h1 span {
+    font-size: 1.5rem;
+  }
+  .pc_navbar {
+    width: 98%;
+  }
+  #btn_sideNavClose {
+    height: 28px;
+    width: 28px;
+  }
+  .kk-background {
+    background-size: 315%;
+    background-position: 0%;
+  }
+  .kk-work-section .kk-work-content .kk-slide h1 .expspan1 {
+    font-size: 1.5rem;
+  }
+  .myindex-section .myindex-content {
+    width: 100%;
+  }
+  .kashiff1-section .kk1-content h1 {
+    font-size: 8vw;
+  }
+  .myindex-section .myindex-content h4 {
+    font-size: 10vw;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .fashiontv1-section .fashiontv1-video video {
+    aspect-ratio: 0.6;
+  }
+  /* main section.video-full {
+    aspect-ratio: 0.6 !important;
+    background-position: 38%;
+  } */
+  .video-full .vbranding3 {
+    width: 58px !important;
+  }
+  main section.video-full .videofull-content {
+    top: 74vw !important;
+  }
+  main section.video-full .vbranding {
+    width: 160px;
+    right: 1%;
+  }
+  .vma > .container-fluid > .row > *,
+  .potential > .container-fluid > .row > * {
+    padding: 5px 5px;
+  }
+  .kk1-intro-section {
+    padding-top: 310px;
+  }
+  .kk1-intro-section {
+    background-color: #320313a1;
+    background-blend-mode: color-burn;
+  }
+  .fashiontv1-section .fashiontv1-video .fashiontv1-heading h2 {
+    font-size: 21vw;
+  }
+  .services-section .container-fluid .row > * .services-content a {
+    font-size: 1rem;
+  }
+  /* .kit-download .kit-content .photo-book,
+  .kit-download .kit-content .sales-kit {
+    flex-direction: column;
+  } */
+  .services-section .container-fluid .row > * .services-content h2 {
+    font-size: 11vw;
+  }
+  .services-img1 img {
+    aspect-ratio: 0.8;
+  }
+  .services-img2 img {
+    aspect-ratio: 1;
+  }
+  .services-section .container-fluid .row > * .services-img1 h4 {
+    position: absolute;
+    font-size: 0.8rem;
+    z-index: 1;
+    left: -38px;
+  }
+  .video-book .book-heading h1 {
+    font-size: 11vw;
+  }
+  .brand-support .brand-branding {
+    width: 58%;
+    top: -8%;
+  }
+  .kashiff1-section .kk1-content h1 {
+    font-size: 10vw;
+  }
+  .kashiff1-section .kk1-content p {
+    font-size: 1rem;
+  }
+  .services-content {
+    text-align: center;
+  }
+  /* .video-book {
+    background-size: 156%;
+  } */
+  .brand-support {
+    padding: 2rem 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* .video-full .vbranding2 {
+    left: 9% !important;
+    top: 68% !important;
+  }
+  main section.video-full .videofull-content {
+    top: 109vw !important;
+  } */
+  /* main section.video-full .sidePanel {
+    width: 25%;
+    left: 0;
+    right: auto;
+    top: 5%;
+    height: 22%;
+  } */
+
+  .financial-section .financial-prerequisite ul li span {
+    font-size: 1.2rem;
+  }
+  .ravp-section .ravpbranding {
+    left: 0;
+    top: -19%;
+  }
+  .fashiontv1-section .fashiontv1-video .fashiontv1-heading {
+    bottom: -22px;
+  }
+  .fashiontv1-section {
+    padding: 92px 0 6.5rem 0;
+  }
+  h1 {
+    font-size: 13vw;
+  }
+  .myindex-section .myindex-content p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 280px) {
+}
