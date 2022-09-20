@@ -229,7 +229,7 @@
                                                         </video>
                                                     </div>
                                                     <div class="item">
-                                                        <video class="w-100" muted="" autoplay="" loop="" poster="/assets/img/brewery-poster.png">
+                                                        <video class="w-100" muted="" autoplay="" loop="" poster="/assets/img/poster/brewery-poster.jpg">
                                                             <source src="https://frn.s3.ftvassets.in/media/videos/fashiontv-master/franchise/fnb/FTVBREWERY.webm" type="video/webm">
                                                             <source src="https://frn.s3.ftvassets.in/media/videos/fashiontv-master/franchise/fnb/FTVBREWERY.mp4" type="video/mp4">
                                                             Sorry, your browser doesn't support embedded videos.
